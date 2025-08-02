@@ -1,0 +1,93 @@
+/* css/style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.8rem;
+}
+
+header p {
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.back-link {
+    display: inline-block;
+    margin: 1rem 0;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.skill-page {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.skill-page h1 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.skill-page img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.difficulty {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.beginner { background: #d4edda; color: #155724; }
+.intermediate { background: #d1ecf1; color: #0c5460; }
+.advanced { background: #f8d7da; color: #721c24; }
+.expert { background: #e2e3e5; color: #495057; }
+
+.muscles-worked {
+    background-color: #f0f7ff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.muscles-worked h3 {
+    color: #3498db;
+    margin-bottom: 0.5rem;
+}
